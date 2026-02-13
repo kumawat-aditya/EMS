@@ -78,21 +78,24 @@ This is the backend of an Employee Management System built with Java Spring Boot
 
 ## Setup and Installation
 
-1. **Clone the Repository**  
+1. **Clone the Repository**
+
    ```bash
-   git clone https://github.com/Adikumaw/EMS.git
+   git clone https://github.com/kumawat-aditya/EMS.git
    cd EMS
    ```
 
 2. **Configure the Application**  
    Update the `application.properties` file with your database configuration and no need to configure JWT secret key ( Automaticaly Generates after running the server ).
 
-3. **Build the Project**  
+3. **Build the Project**
+
    ```bash
    mvn clean install
    ```
 
-4. **Run the Application**  
+4. **Run the Application**
+
    ```bash
    mvn spring-boot:run
    ```
